@@ -1,0 +1,71 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    /* border: 2px solid red; */
+    /* border-bottom: 2px solid saddlebrown; */
+        padding: 15px 0 15px 0 ;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+ 
+/* for both left and right divs */
+.navbar div{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.left-div h2{
+    margin-right:15px ;
+    font-family: "Oregano", cursive;
+    color: rebeccapurple;
+    
+}
+
+
+.left-div a, .right-div a{
+    padding: 5px;
+    --c: #1095c1;
+    line-height: 1.2em;
+    background:
+      conic-gradient(from -135deg at 100%  50%,var(--c) 90deg,#0000 0) 0    var(--p,0%),
+      conic-gradient(from -135deg at 1.2em 50%,#0000 90deg,var(--c) 0) 100% var(--p,0%);
+    background-size: var(--s,0%) 200%;
+    background-repeat: no-repeat;
+    transition: .4s ease-in, background-position 0s;
+    border-radius: 2px;
+  }
+  
+.left-div a:hover , .right-div a:hover {
+    --p: 100%;
+    --s: calc(50% + .61em); /* it should be 0.6em(1.2em/2) but we use a litte bigger  */
+    color: #fff;
+  } 
+ 
+
+  
+
+
+
+
+
+
+
+/*      RIGHT DIV        */
+
+.right-div {
+    display: flex;
+    gap: 30px;
+}
