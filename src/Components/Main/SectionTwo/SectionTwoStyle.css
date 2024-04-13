@@ -1,0 +1,31 @@
+.Intro-container{
+    margin-top:50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 0 10px 0;
+}
+
+.Intro-container h2{
+    color: rebeccapurple;
+}
+
+
+.Intro-container p{
+    letter-spacing: 1px;
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
+
+
+.Intro-container button{
+    border: none;
+    background:black;
+    color: white;
+    padding: 15px;
+    font-size: larger;
+    border-radius: 3px;
+
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&family=Playball&display=swap');
+
+.first-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto 10px auto   ;    
+}
+
+.first-section .left-side{
+    border-radius: 3px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #F2F7FA;
+    padding: 20px 0;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+.first-section .left-side p {
+    font-size: 40px;
+    font-family: "Oregano", cursive;
+}
+
+.first-section .right-side {
+    border-radius: 3px;
+    background: url("Images/Home-Pics/man-shopping.png") no-repeat ;
+    width: 50%;
+    background-size:contain;
+
+}
+
+.Men{
+    color: black;
+}
+.Women{
+    color: rosybrown;
+}
+.kids{
+    color: burlywood;
+}

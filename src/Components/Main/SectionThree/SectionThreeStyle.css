@@ -1,0 +1,16 @@
+.Flex-container{
+    margin: 30px 0;
+}
+
+.flex-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-images img{
+    width:250px;
+    height: 250px;
+    border-radius: 2px;
+    
+}

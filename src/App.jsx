@@ -1,12 +1,14 @@
-import Header from './Header/Header'
-import Footer from './Footer/Footer'
+import Header from "./Components/Header/Header"
+import MainPage from "./Components/Main/MainPage"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
 
   return (
     <div>
       <Header />
-      <Footer />
+      <MainPage/>
+      <Footer  /> 
     </div>
   )
 }
