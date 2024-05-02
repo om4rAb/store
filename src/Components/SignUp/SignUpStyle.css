@@ -1,0 +1,78 @@
+.divsignup{
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+.Sign-up-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Sign-up-container h3 {
+    margin:15px 0 10px 0;
+    width: 50%;
+    text-align: left;
+}
+
+.Sign-up-container i{
+    margin:5px 0 20px 0;
+    width: 50%;
+    text-align: left;
+}
+
+.Sign-up-container i a{
+    color:blue;
+    
+}
+
+.Sign-up-container .Sign-up-form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Sign-up-form input{
+    margin: 3px 0 15px 0;
+    padding: 17px 0;
+    text-indent: 5px;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    outline: none;
+
+}
+.Sign-up-form input[type=button]{
+    background-color: burlywood;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+.benefit-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefit-div div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: burlywood;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
